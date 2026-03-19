@@ -130,6 +130,4 @@ If `confidence_score < 0.7`, the payload is routed to human review instead of th
 - **Message bus over direct calls**: Decoupling agents via Redis allows independent scaling and makes it easy to add new agents without changing existing ones.
 - **Quality gate at every handoff**: Instead of a single gate at the end, each transition validates output — catching errors early is cheaper than catching them late.
 
-## License
 
-MIT
